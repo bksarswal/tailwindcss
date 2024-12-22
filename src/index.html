@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+      <nav  class="p-3 flex bg-white justify-between items-center">
+
+        <a  href="#"  id="brand " class="flex gap-2 items-center">
+        <img   class="object-cover max-w-12 max-h-8 ml-4" src="/do (1).jpg" alt="bk">
+        <span   class="text-lg font-medium">todescription</span>
+      </a>
+
+     <div id="nav-menu" class=" hidden  md:flex gap-12">
+
+      <a  href="#" class="font-medium hover:text-gray-900 ">home</a>
+      <a  href="#" class="font-medium hover:text-gray-900 ">About</a>
+      <a  href="#" class="font-medium hover:text-gray-900 ">Content</a>
+      <a  href="#" class="font-medium hover:text-gray-900 ">Login</a>
+      <a  href="#" class="font-medium hover:text-gray-900 ">Ragiser</a>
+     </div>
+
+     <button class="hidden   md:flex items-center border-2  px-2 py-2 gap-2 rounded-md  border-black border-solid">
+      <img src="/do (1).jpg" class="max-w-6 max-h-6  " alt="mode">
+      <span> modetitle</span>
+      <i class="fa-solid fa-arrow-right"></i>
+     </button>
+     <button type="button" title="search" class="p2-2 md:hidden" onclick="handleMenu()">
+      <i class="fa-solid fa-bars text-gray-800"></i>
+    </button>
+<div id="nav-dialog" class=" hidden  fixed z-10 md:hidden inset-0 bg-white">
+  <div id="navbar" class="flex justify-between">
+    <a  href="#"  id="brand " class="flex gap-2 items-center">
+      <img   class="object-cover max-w-12 max-h-8 ml-4" src="/do (1).jpg" alt="bk">
+      <span   class="text-lg font-medium">tode scription</span>
+    </a>
+    <button type="button" title="search"  class="p-2 md:hidden" onclick="handleMenu()">
+      <i class="fa-solid fa-xmark  text-gray-800"></i>
+    </button>
+
+  </div>
+
+  <div  class=" mt-6  ">
+
+    
+    
+    <a  href="#" class="font-medium p-2 m-3 hover:bg-gray-500 block rounded-lg ">home</a>
+    <a  href="#" class="font-medium p-2 m-3 hover:bg-gray-500 block rounded-lg ">About</a>
+    <a  href="#" class="font-medium p-2 m-3 hover:bg-gray-500 block rounded-lg ">Contect</a>
+    <a  href="#" class="font-medium p-2 m-3 hover:bg-gray-500 block rounded-lg ">Login</a>
+    <a  href="#" class="font-medium p-2 m-3 hover:bg-gray-500 block rounded-lg ">Ragiser</a>
+    
+  
+  </div>
+
+  <div class="h-[1px] bg-red-300"></div>
+  <button class="  mt-6 w-full  flex items-center  hover:bg-gray-500   px-4 py-2 gap-2  ">
+    <img src="/do (1).jpg" class="max-w-6 max-h-6  " alt="mode">
+    <span> modetitle</span>
+    <i class="fa-solid fa-arrow-right"></i>
+   </button>
+
+</div>
+
+
+
+      </nav>
+
+      <script src="script.js"></script>
+</body>
+</html>
